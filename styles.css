@@ -1,4 +1,4 @@
-    .wrapper {
+.wrapper {
       max-width: 765px;
       margin: 20px auto;
       background: #333;
@@ -58,5 +58,4 @@
       padding: 5px;
       border-radius: 4px;
       font-weight: bold;
-	}
     }
