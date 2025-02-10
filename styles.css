@@ -1,2 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Custom Video Player</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .wrapper {
+      max-width: 765px;
+      margin: 20px auto;
+      background: #333;
+      padding: 10px;
+      border-radius: 8px;
+      color: white;
+    }
 
-/* Your CSS Code here. */
+    .flex {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .controls {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
+    }
+
+    .progress {
+      background: #555;
+      cursor: pointer;
+      flex: 1;
+      margin: 5px 0;
+      height: 8px;
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    .progress__filled {
+      width: 0;
+      background: #ffc600;
+      height: 100%;
+      transition: width 0.1s;
+    }
+
+    .player__button, .player__slider, .skip {
+      margin: 0 5px;
+      cursor: pointer;
+    }
+
+    input[type=range] {
+      width: 80px;
+    }
+
+    .speed {
+      background: #444;
+      margin-top: 10px;
+      padding: 5px;
+      border-radius: 4px;
+      text-align: center;
+    }
+
+    .speed-bar {
+      background: #ffc600;
+      padding: 5px;
+      border-radius: 4px;
+      font-weight: bold;
+    }
